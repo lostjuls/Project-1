@@ -1,0 +1,27 @@
+#folder {
+    background-color: pink;
+    color: white;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+    border: solid slateblue 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 30px;
+    display: inline-block;
+text-align: center;}
+    
+  
+#upload{
+    background-color: rgb(60, 133, 124);
+    color: white;
+    height: 300px;
+    width: 400px;
+    align-content: center;
+    border: solid rgb(205, 148, 90) 2px;
+    border-radius: 50%;
+    padding: 10px; 10px; 10px; 10px;
+    margin-top: 10px;
+    display: inline-block; 
+    text-align: center;
+}
