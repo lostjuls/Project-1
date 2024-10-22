@@ -25,3 +25,49 @@ text-align: center;}
     display: inline-block; 
     text-align: center;
 }
+
+footer { 
+
+    background-color: #d166a64a; /* Dark background color */ 
+
+    color: white;              /* White text */ 
+
+    padding: 20px;            /* Padding for spacing */ 
+
+    text-align: center;       /* Centered text */ 
+
+} 
+
+ 
+
+.footer-container { 
+
+    max-width: 1200px;        /* Max width for content */ 
+
+    margin: 0 auto;           /* Center the footer */ 
+
+} 
+
+ 
+
+.social-media { 
+
+    margin-bottom: 10px;      /* Space between social media links and copyright */ 
+
+} 
+
+ 
+
+.social-media a { 
+
+    margin: 0 10px;           /* Space between icons */ 
+
+} 
+
+ 
+
+.social-media img { 
+
+    width: 30px;              /* Set icon size */ 
+
+    height: auto;             /* Maintain aspect ratio */ 
