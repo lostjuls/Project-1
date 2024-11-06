@@ -38,3 +38,7 @@ opacity: 1;}
 .skew-heading{transition: all;}
 
 .skew-heading:hover{transform: skewX(20deg);}
+
+.skew-paragraph{transition: all;}
+
+.skew-paragraph:hover{transform: skewY(15deg);}
