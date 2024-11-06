@@ -14,3 +14,8 @@ transition: all; transition-duration: 1s;}
 .transition-text{font-size: 16px; transition: all; transition-duration: .3s;}
 
 .transition-text:hover{font-size: 24px;}
+
+.transition-image{ height: 100px; width: 100px; transition: all; transition-duration: .8s;
+opacity: 1;}
+
+.transition-image:hover{opacity: .5;}
