@@ -30,3 +30,7 @@ opacity: 1;}
 .translate-button{transition: all;}
 
 .translate-button:hover{transform: translate(50px, 20px)}
+
+.translate-div{transition: all; background-color: antiquewhite; height: 100px; width: 200px;}
+
+.translate-div:hover{transform: translateX(-100px)}
