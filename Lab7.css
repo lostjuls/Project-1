@@ -10,3 +10,7 @@ transition-duration: .5s;}
 transition: all; transition-duration: 1s;}
 
 .transition-div:hover{width: 200px;}
+
+.transition-text{font-size: 16px; transition: all; transition-duration: .3s;}
+
+.transition-text:hover{font-size: 24px;}
