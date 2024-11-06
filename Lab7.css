@@ -22,3 +22,7 @@ opacity: 1;}
 
 .scale-div{color: white; background-color: red; transition: all;}
 .scale-div:hover{transform: scale(1.5);}
+
+.scale-image{ height: 100px; width: 100px; transition: all;}
+
+.scale-image:hover{transform: scale(.75);}
