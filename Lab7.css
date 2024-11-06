@@ -19,3 +19,6 @@ transition: all; transition-duration: 1s;}
 opacity: 1;}
 
 .transition-image:hover{opacity: .5;}
+
+.scale-div{color: white; background-color: red; transition: all;}
+.scale-div:hover{transform: scale(1.5);}
