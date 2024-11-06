@@ -34,3 +34,7 @@ opacity: 1;}
 .translate-div{transition: all; background-color: antiquewhite; height: 100px; width: 200px;}
 
 .translate-div:hover{transform: translateX(-100px)}
+
+.skew-heading{transition: all;}
+
+.skew-heading:hover{transform: skewX(20deg);}
