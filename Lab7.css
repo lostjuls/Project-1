@@ -5,3 +5,8 @@ transition-duration: .5s;}
 .transition-button:hover{
     background-color: green;
 }
+
+.transition-div{background-color: blue ; color: white; height: 100px; width: 100px;
+transition: all; transition-duration: 1s;}
+
+.transition-div:hover{width: 200px;}
