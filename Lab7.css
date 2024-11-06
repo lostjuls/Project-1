@@ -26,3 +26,7 @@ opacity: 1;}
 .scale-image{ height: 100px; width: 100px; transition: all;}
 
 .scale-image:hover{transform: scale(.75);}
+
+.translate-button{transition: all;}
+
+.translate-button:hover{transform: translate(50px, 20px)}
