@@ -1,0 +1,7 @@
+.transition-button{background-color: blue ; color: white;
+transition: all;
+transition-duration: .5s;}
+
+.transition-button:hover{
+    background-color: green;
+}
