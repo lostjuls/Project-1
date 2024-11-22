@@ -1,11 +1,13 @@
 #folder {
+    
+    margin: 0;
     background-color: pink;
     color: white;
     height: 300px;
     width: 300px;
-    align-content: center;
+  
     border: solid slateblue 2px;
-    border-radius: 10px;
+    border-radius: 10p  x;
     padding: 10px;
     margin-top: 30px;
     display: inline-block;
@@ -14,17 +16,20 @@ text-align: center;}
   
 #upload{
     background-color: rgb(60, 133, 124);
+   align-content: center;
     color: white;
-    height: 300px;
-    width: 400px;
     align-content: center;
-    border: solid rgb(205, 148, 90) 2px;
-    border-radius: 50%;
-    padding: 10px; 10px; 10px; 10px;
-    margin-top: 10px;
-    display: inline-block; 
+  
     text-align: center;
-}
+    font-family: Arial, sans-serif;  
+    font-size: 100px }
+    
+    .content { 
+  width: 1000px; height: 1000px; 
+ justify-content: center; 
+ align-items: center;
+ text-align: center; }
+    
 
 footer { 
 
@@ -70,4 +75,39 @@ footer {
 
     width: 30px;              /* Set icon size */ 
 
-    height: auto;             /* Maintain aspect ratio */   
+    height: auto;             /* Maintain aspect ratio */   }
+
+
+    #dropArea {
+        width: 100%;
+        height: 300px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;
+    }
+    
+    .image {
+        max-width: 100px;
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+    }
+    
+    #dropArea p {
+        font-size: 18px;
+        color: #888;
+    }
+.displayName{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; height: 100vh; margin: 0; 
+    font-family: Arial, sans-serif; } 
+    
+    .container { text-align: center; } 
+    
+    .container input { padding: 10px; margin: 10px; border: 1px solid #ccc; border-radius: 5px; } 
+    
+    .container button { padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; } .container button:hover { background-color: #0056b3;}

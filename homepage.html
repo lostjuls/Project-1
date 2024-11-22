@@ -1,105 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Organizer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ArtsyArts</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="java.js"></script>
+    </head>
 
-<div id="upload">
-    <h1>ArtsyArts</h1>
-<body><h3>Log in </h3>
-    <form action=" /path_to_server">
-      <label>Username: 
-    <input type="text" placeholder="Enter Username"><br><br></label>
-    <label>Password: 
-    <input type="password" placeholder="Enter your password"> <br><br> </label>
-    <input type="submit" value="Log in"> <br><br>
-
-    <br><Br>
-        <br><Br>
-    
-            <br><Br>
-                <div id="folder">
-                    <body>
-                          <form class="box" method="post"></form>
-                          <form action="/upload" method="post" enctype="multipart/form-data">
-                           
-                            
-                          </form>
-                          <br><br>
-                          <input type="text" placeholder="Folder Name">
-                          <script>
-                          function previewImage(event) {
-                              var reader = new FileReader();
-                              reader.onload = function() {
-                                  var output = document.getElementById('output');
-                                  output.src = reader.result;
-                              }
-                              reader.readAsDataURL(event.target.files[0]);
-                          }
-                      </script>
-                  
-                  
-                      <h1>Upload Art!</h1>
-                      <input type="file" accept="image/*" onchange="previewImage(event)">
-                      <br>
-                      <img id="output" width="500" alt="">
-                  </body>
-                  </div>
-                  
-                  <footer> 
-                  
-                      <div class="footer-container"> 
-                  
-                          <div class="social-media"> 
-                  
-                              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> 
-                  
-                                  <img src="facebook-icon.png" alt="Facebook" /> 
-                  
-                              </a> 
-                  
-                              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> 
-                  
-                                  <img src="twitter-icon.png" alt="Twitter" /> 
-                  
-                              </a> 
-                  
-                              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"> 
-                  
-                                  <img src="linkedin-icon.png" alt="LinkedIn" /> 
-                  
-                              </a> 
-                  
-                              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> 
-                  
-                                  <img src="instagram-icon.png" alt="Instagram" /> 
-                  
-                              </a> 
-                  
-                          </div> 
-                  
-                          <p>&copy; 2024 ArtsyArs. All Rights Reserved.</p> 
-                  
-                      </div> 
-                  
-                  </footer> 
-                <br><Br>
-    
-</body>
-</div>
-   
-      
+    <section id="upload">
         
+    <h1>ArtsyArts</h1>
+    <div class="content">
+    <form action="page1.html">
 
+            <label>Username: <input type="username" placeholder="Enter Username" id="name" name="name" required> <br><br></label>
+             
+         <label>Password: <input type="password" placeholder="Enter your password"  id="password" name="password" required> <br><br> </label>
+          
+         <button type="submit">Log in</button>
+    <br><br>
+  </div>
 
- 
-</html>
-
-     
-  
-    
-    
     

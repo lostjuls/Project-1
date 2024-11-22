@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Organizer</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="java.js"></script>
+
+    </head>
+    <br><Br>
+    <br><Br>
+        <body>
+            
+            <div class="container"> 
+                <h2>Name Your Collage</h2> 
+                <input type="text" id="nameInput" placeholder="Your Collage"> 
+                <button onclick="displayUserName()">Submit</button> 
+                <h3 id="displayName"></h3> </div>
+                <script> function displayUserName() { let name = document.getElementById('nameInput').value; document.getElementById('displayName').innerText = "Your Collage: " + name ; } </script>
+          
+
+            <div id="dropArea">
+                <p>Drag and drop images here!</p>
+            </div>
+        
+            <div id="imageContainer">
+               
+            </div>
+        
+            <script>
+           
+                const dropArea = document.getElementById('dropArea');
+                const imageContainer = document.getElementById('imageContainer');
+        
+                dropArea.addEventListener('dragover', (event) => {
+                    event.preventDefault();
+                });
+        
+                dropArea.addEventListener('drop', (event) => {
+                    event.preventDefault();
+        
+                    const files = event.dataTransfer.files;
+        
+                    for (let i = 0; i < files.length; i++) {
+                        const file = files[i];
+                        
+                        if (file.type.startsWith('image/')) {
+                            const reader = new FileReader();
+        
+                            reader.onload = function(e) {
+                                const img = document.createElement('img');
+                                img.src = e.target.result; 
+                                img.classList.add('image'); 
+                                
+                                imageContainer.appendChild(img);
+                            };
+        
+                            reader.readAsDataURL(file); 
+                        } else {
+                            alert('Only image files are allowed.');
+                        }
+                    }
+                });
+            </script>
+        </body>
+
+
+
+
+
+
+
+
+
+
+
+
+     
+            
+              
+                
+              <footer> 
+              
+                  <div class="footer-container"> 
+              
+                      <div class="social-media"> 
+              
+                          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> 
+              
+                              <img src="facebook-icon.png" alt="Facebook" /> 
+              
+                          </a> 
+              
+                          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"> 
+              
+                              <img src="twitter-icon.png" alt="Twitter" /> 
+              
+                          </a> 
+              
+                          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"> 
+              
+                              <img src="linkedin-icon.png" alt="LinkedIn" /> 
+              
+                          </a> 
+              
+                          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"> 
+              
+                              <img src="instagram-icon.png" alt="Instagram" /> 
+              
+                          </a> 
+              
+                      </div> 
+              
+                      <p>&copy; 2024 ArtsyArs. All Rights Reserved.</p> 
+              
+                  </div> 
+              
+              </footer> 
+            <br><Br>
+
+</body>
+
+
+  
+    
+
+
+
+</html>
+
+ 
+
+
+
+
