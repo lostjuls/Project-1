@@ -80,7 +80,7 @@ footer {
 
     #dropArea {
         width: 100%;
-        height: 300px;
+        height: 100px;
         border: 2px dashed #ccc;
         display: flex;
         align-items: center;
@@ -88,17 +88,122 @@ footer {
         background-color: #f9f9f9;
         margin: 20px 0;
     }
+    .name-display {
+        flex-direction: column; 
+        align-items: center;
+         justify-content: center; 
+      
+         border-radius: 10px; text-align: center; 
+         padding: 20px; 
+         display: none; font-size: 24px;
+        } 
+       
+    .name-display2 {
+            flex-direction: column; 
+            align-items: center;
+             justify-content: center; 
+             border-radius: 10px; text-align: center; 
+             padding: 20px; 
+             display: none; 
+             font-size: 24px;
+            } 
+
+            .name-display3 {
+                flex-direction: column; 
+                align-items: center;
+                 justify-content: center; 
+                 border-radius: 10px; text-align: center; 
+                 padding: 20px; 
+                 display: none; 
+                 font-size: 24px;
+                } 
+
+                .name-display4 {
+                    flex-direction: column; 
+                    align-items: center;
+                     justify-content: center; 
+                     border-radius: 10px; text-align: center; 
+                     padding: 20px; 
+                     display: none; 
+                     font-size: 24px;
+                    } 
+
+                    .name-display5 {
+                        flex-direction: column; 
+                        align-items: center;
+                         justify-content: center; 
+                         border-radius: 10px; text-align: center; 
+                         padding: 20px; 
+                         display: none; 
+                         font-size: 24px;
+                        } 
+            
+    
+    #dropArea2 {
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;
+    }
+    #dropArea3 {
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;}
+        
+    #dropArea3 {
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;
+    }
+
+    #dropArea4 {
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;
+    }
+
+    #dropArea5 {
+        width: 100%;
+        height: 100px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f9f9;
+        margin: 20px 0;
+    }
+
+    
     
     .image {
-        max-width: 100px;
+        max-width: 300px;
         margin: 10px;
-        border: 2px solid #ccc;
+        border: 2px solid #ffffff;
         border-radius: 8px;
     }
     
     #dropArea p {
         font-size: 18px;
-        color: #888;
+        color: #000000;
     }
 .displayName{
     display: flex; 
@@ -108,6 +213,39 @@ footer {
     
     .container { text-align: center; } 
     
-    .container input { padding: 10px; margin: 10px; border: 1px solid #ccc; border-radius: 5px; } 
+    .container input { padding: 10px; 
+        margin: 10px; 
+        border: 1px solid #ccc;
+         border-radius: 5px; } 
     
-    .container button { padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; } .container button:hover { background-color: #0056b3;}
+    .container button { padding: 10px 20px; 
+        background-color: #007BFF; 
+        color: white; 
+        border: none; 
+        border-radius: 5px;
+         cursor: pointer; } 
+         .container button:hover { background-color: #0056b3;}
+
+
+    .navbar { position: fixed;
+         top: 0; 
+         width: 100%; 
+         background-color: #d166a64a;
+          display: flex; 
+          justify-content: center;
+           font-size: 30px; z-index: 1000;
+        } 
+    .navbar a { color: white; 
+        padding: 14px 20px;
+         text-align: center; 
+         text-decoration: none; } 
+
+    .navbar a:hover  { 
+        background-color: #ddd; 
+        color: black;  }
+
+        
+        
+
+
+         
