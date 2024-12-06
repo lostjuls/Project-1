@@ -21,54 +21,11 @@
                 <script> function displayUserName() { let name = document.getElementById('nameInput').value; document.getElementById('displayName').innerText = "Your Collage: " + name ; } </script>
           
 
-            <div id="dropArea">
-                <input type="text" id="collageNameInput" placeholder="Enter group name">
-                <button id="submitButton" onclick="displayCollageName()">
-                   Name It</button> 
-                
-                   <div id="displayCollageName" class="name-display">  </div>
-                   
-                   <script> function displayCollageName() { var collageName = document.getElementById("collageNameInput").value; if (collageName) { var displayCollageName = document.getElementById("displayCollageName"); displayCollageName.innerText = collageName; displayCollageName.style.display = "block"; var submitButton = document.getElementById("submitButton"); submitButton.innerText = "Change Name"; } } </script>
-        
-            </div>
-                   <script>
-           
-                const dropArea = document.getElementById('dropArea');
-                const imageContainer= document.getElementById('imageContainer');
-        
-                dropArea.addEventListener('dragover', (event) => {
-                    event.preventDefault();
-                });
-        
-                dropArea.addEventListener('drop', (event) => {
-                    event.preventDefault();
-        
-                    const files = event.dataTransfer.files;
-        
-                    for (let i = 0; i < files.length; i++) {
-                        const file = files[i];
-                        
-                        if (file.type.startsWith('image/')) {
-                            const reader = new FileReader();
-        
-                            reader.onload = function(e) {
-                                const img = document.createElement('img');
-                                img.src = e.target.result; 
-                                img.classList.add('image'); 
-                                
-                                imageContainer.appendChild(img);
-                            };
-        
-                            reader.readAsDataURL(file); 
-                        } else {
-                            alert('Only image files are allowed.');
-                        }
-                    }
-                });
+            
 
 
         
-            </script>
+        
 
         </body>
 
